@@ -1,0 +1,93 @@
+/* Background colors for containers */
+
+/*
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background-color:hsla(60, 100%, 50%, .4);
+  text-align: center;
+     }
+    
+.head {
+  background-color:green;
+  width: 90%;
+  margin: 0 auto  
+}
+
+.content {
+  background-color: red;
+  width: 90%;
+  margin: 0 auto
+}
+
+.profil-image, .name-headline, .about, .section-links{
+  background-color: violet;
+  
+  }
+
+/* Resetare CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Poziționarea */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+  transition: all 0.5s ease-in-out;
+}
+
+.profile-image {
+  margin-top: -80px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+body {
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://i.imgur.com/AzNcJ0Y.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+img:hover {
+  transform: scale(1.3);
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
